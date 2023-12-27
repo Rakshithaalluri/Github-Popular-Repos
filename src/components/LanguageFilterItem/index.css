@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.list-item {
+  list-style-type: none;
+}
+
+.language-name {
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: bold;
+  color: #0f172a;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 768px) {
+  .language-name {
+    font-size: 14px;
+  }
+}
+
+.active-language-btn {
+  color: #0284c7;
+  border-radius: 10px;
+  border: 1px solid #0284c7;
+}
